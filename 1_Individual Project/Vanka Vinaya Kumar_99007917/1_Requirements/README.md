@@ -1,98 +1,60 @@
-### Automatic Lights
-#### Working principle: -
+# AUTOMATIC WINDOW OPENING AND SUNROOF
+### Abstract
+Power windows or electric windows are automobile windows which can be
+raised and lowered by pressing a button or switch, as opposed to using a crank handle.
+### Requirements
+#### High level requirements
+1. The window has to start moving after the command is issued.
+2. The window has to be fully opened and fully closed.
+3. The driver command has priority over the passenger command.
+#### Low level requirements
+1. The force to detect when an object is present should be less than 100 [N].
+2. If the up or down command is issued for at least 200 [ms] and at most 1 [s], the window has to be fully opened
+or closed, respectively.
+3. When an object is present, the window should be lowered by approximately 10 [cm].
 
-* The PIR sensor senses the movement of the human body through changes in the ambient temperature as the human body passes through it.
+### Features Of Power Windows:
+Keeping aside the generic feature of the windows being rolled up and down with just the touch of a button, 
+the power windows come with some unique features that make them more user-friendly and convenient. These features can be summed up as follows:
 
-* Then it turns on the lighting load to which it is connected.
+#### Automatic Down: 
+This is a very common feature in almost all power windows. This feature allows the user to make the windows go all the way 
+down by just tapping the button once. The system uses a circuit to monitor the amount of time that the switch was held down.
+If the switch is held down for less than a second, the window goes down all the way to hit the limit switch and stops there.
+In case the button is held down for a longer time, the circuit analyses the time and stops rolling the window down as soon as the button is released.
 
-* The load of light will remain on until it senses movement.
+#### Automatic Up:
+This feature is not very common as it has certain complications. The automatic up works in the same way as the automatic down.
+But, the automatic up feature poses a risk. While the window goes up, if anything gets in the way of the window, like a child’s 
+hand or a pet dog or cat’s paw, it is highly likely to injure them. As the window won’t stop until it hits the limit switch,
+it engages a risk of an accident. The only way out of this problem is the introduction of another circuit into the system, that 
+can monitor the speed at which the window rolls up. As the speed is slowed down due to an obstruction, the circuit reverses the 
+power back to the motor and the window goes down.
 
-* Once the motion is caught, it stops the lighting load.
+### Advantages 
+1) It allows the driver to control the windows with just the touch of his fingers.
+2) It allows people with hand injuries or other physical complications to easily operate the windows.
+3) Drivers can easily control the windows even while driving.
+4) The master power panel in the front also allows the driver to operate all 
+5) the windows simultaneously, without leaving his seat. This feature is very helpful in case there are children in the back seat.
+6) 
+### Disadvantages
+1) Many a times, the window regulator also known as the window track, might stop functioning. This causes a power window failure.
+2) Power windows might also stop working because of a broken motor, a broken cable pulley, or a broken switch.
+3) Worn off window regulators might also be a reason behind a dysfunctional power window.
+4) 
+### SWOT Analysis
+![window swot](https://user-images.githubusercontent.com/98832333/160218982-7179e7c9-2cec-4ca0-bf4c-bfd1cb8ffef5.PNG)
 
-* At night, the LUX adjustment knob allows you to adjust the light based on which the light load will either turn on / off automatically.
-
-
-#### Brief introduction:
-
-* The PIR motion sensor switch can detect infrared rays emitted from the human body. The active presence of the human body in the detection range / coverage area of light or any other electronic device can be activated automatically and when it is not there, the light will automatically become inactive.
-
-#### Power:
-* It is estimated that one unit of energy saved at the point of final use is equal to 2.3 units of energy produced.
-
-* If energy saving practices are properly implemented, the equivalent of about 25,000 MW of electricity can be generated through the promotion of energy efficient measures.
-
-#### PIR motion sensor for automatic light control
-
-* The PIR Motion Sensor is a fully automatic indoor and outdoor security / courtesy light controller capable of controlling 2000W incandescent or 30W x 20 fluorescent light day and night. The built-in PC infrared (PIR) motion sensor turns on the attached lighting system as it detects movement in its coverage area. During the day, the sensor built into the photo cell saves electricity by disabling the lights. You can reduce your electricity bills by using PIR motion sensors and occupancy sensors.
-
-* An adjustable time knob lets you choose how long the light lasts after activation and thus prevents power loss. In the evening or at night, you can also manage when the lights should be on through the LUX adjustment knob provided in the sensor.
-
-#### Energy saving sensor:
-
-* Using PIR sensors can save a lot of energy by turning off the lights when the space is not in use. Savings are huge in large facilities.
-
-* It is estimated that one unit of energy saved at the point of final use is equal to 2.3 units of energy produced.
-
-* Approximately 25,000 MW of electricity equivalent capacity can be saved by promoting energy efficient measures if energy saving methods are implemented properly.
-
-* PIR motion sensors for home security
-
-* If PIR motion sensors are installed in the front or backyard of your home, they serve as security sensors at night. In case any body jumps or sneaks into its detection range, the attached lights / siren or beep may automatically turn on to intimidate the intruder.
-
-
-
-#### Applications: -
-
-* Common toilets, for lights & exhaust fans
-* Common staircase / Entrance / Basements
-* Parking areas / garden lights
-* Living room, Malls, ATMS
-* Changing rooms in shops
-* Offices / Conference Room
-* Corridors & many more!
-
-
---------------------------------------------------------
-
-----------------------------------------------------------
-##   4W's & 1H
-| Sl.No | Questions | Description | 
-| :-----: | :-----: | ----- |
-| 1. | What | Automatic lights on or off by using motion sensor. |
-| 2. | Who | Automatic lights can use in hospital, Schools, college and offices . | 
-| 3. | When | it detects the motion of human ad switch on the lights . |
-| 4. | Where | Automatic lights are can use in bedrooms bathrooms and street lights . | 
-| 5. | How | Then it turns on the lighting load to which it is connected the load of light will remain on until it senses movement. |
--------------------------------------------------------
-
-![Automatic_lights](https://user-images.githubusercontent.com/98829237/163231452-4a8815aa-2e93-4944-bb08-dc05365e73f6.jpg)
-
-
-
----------------------------------------------------------
-
-
-##  Requirements:
-##  High Level Requirements ##
-|ID| Description|
-| :-------: |----------------------------------------------------------------------------------------------------------------------------------|
-| HLR_1 | It shall have pir motion sensor .|
-| HLR_2 | It shall have led to switch on/off  . |
-| HLR_3 | It shall switch on when motion detects.  |
-| HLR_4 | It shall switch off when motion not detects.  |
----------------------------------
-
-
-
-
-## LOW LEVEL REQUIREMENTS:- ##
-| HLR_ID |LLR_ID | Design_consideration | 
-| - | -| -| 
-| HLR_1 | LLR_1.1 | It shall pir sensor to detecct motion  |
-| | LLR_1.2 | it shall have proper connection to board |  
-| HLR_2 | LLR_2.1 | It shall have led to switch on/off |
-| | LLR_2.2 | it shows the led to on/off | 
-| HLR_3 | LLR_3.1 | It shall switch on when motion detects |
-| | LLR_3.2 | it switch on when motion detect on pir sensor |  
-| HLR_4 | LLR_4.1 | It shall switch on when motion detects |
-| | LLR_4.2 | it switch off when motion detect on pir sensor  |  
+### 4W's and 1 H
+##### WHY
+They're easier to use than traditional crank windows and many systems offer driver control over rear windows for safety reasons.
+##### WHO
+Can be used by the drivers and passengers to automate the window locking 
+##### WHEN
+Can be used when safety is the main concern while travelling in the car
+##### WHERE 
+Can be used in the car which are capable of having sensors to detect the opening and closing of windows.
+##### HOW
+You tap and release the down switch and the window goes all the way down. 
+This feature uses a circuit that monitors the amount of time you hold the switch down.
