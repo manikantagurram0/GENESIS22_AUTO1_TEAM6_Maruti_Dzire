@@ -24,7 +24,7 @@ LLR02 |break get released red light shall go off  | HLR01
 LLR03	| On Right turn of car tyres, right indicator light shall glow untill it comes to straight line | HLR02
 LLR04	| On Left turn of car tyres, left indicator light shall glow untill it comes to straight line | HLR03
 LLR05 | When Switch on light shall glow (Front Lights) | HLR04
-
+LLR06 | When Switch off light shall go off (Front Lights) | HLR04
 
 ## Test Plan 
 
@@ -35,5 +35,5 @@ T02 | Break get released | Red Light Gos off | Yet to  | Yet to
 T03 | On Right turn of car tyres |  right indicator light glows | Yet to | Yet to
 T04 | On left turn of car tyres |  left indicator light glows | Yet to | Yet to
 T05 | Switch on | Front Lights get on | Yet to | Yet to
-
+T06 | Switch off | Front Lights get off | Yet to | Yet to
 
