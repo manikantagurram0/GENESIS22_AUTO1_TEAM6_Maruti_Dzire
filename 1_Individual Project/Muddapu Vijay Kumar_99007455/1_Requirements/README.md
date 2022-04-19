@@ -20,14 +20,12 @@
 ##   4W's & 1H
 | Sl.No | Questions | Description | 
 | :-----: | :-----: | ----- |
-| 1. | What | Automatic lights on or off by using motion sensor. |
-| 2. | Who | Automatic lights can use in hospital, Schools, college and offices . | 
-| 3. | When | it detects the motion of human ad switch on the lights . |
-| 4. | Where | Automatic lights are can use in bedrooms bathrooms and street lights . | 
-| 5. | How | Then it turns on the lighting load to which it is connected the load of light will remain on until it senses movement. |
--------------------------------------------------------
-
-![Automatic_lights](https://user-images.githubusercontent.com/98829237/163231452-4a8815aa-2e93-4944-bb08-dc05365e73f6.jpg)
+| 1. | What | automatic wipers use a sensor that is placed behind the windshield.. |
+| 2. | Who | Automatic wipers can use in buses,cars etc . | 
+| 3. | When | When it rains, the sensor beams out infrared light that is reflected back at different angles based upon the intensity of water droplets falling on the windshield.  . |
+| 4. | Where | Automatic wipers are can use in automobiles . | 
+| 5. | How | The rain sensor monitors the amount of moisture on the windshield and automatically turns the wipers on. . |
+--------------------------------------------------------
 
 
 
