@@ -46,5 +46,5 @@
 ## LOW LEVEL REQUIREMENTS:- ##
 | HLR_ID |LLR_ID | Design_consideration | 
 | - | -| -| 
-| HLR_1 | LLR_1.1 | optical sensor to detecct the moisture  |
-| | LLR_1.2 |  |  
+| HLR_1 | LLR_1 | optical sensor to detecct the moisture  |
+| HLR_2| LLR_2 |  |  
