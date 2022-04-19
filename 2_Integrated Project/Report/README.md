@@ -73,6 +73,37 @@ To change the refrigerant between liquid and gaseous state, the air conditioning
 In the past, automotive air conditioning systems used the R-12 as a refrigerant. R-12 (aka Freon) is a highly effective CFC based (chlorofluorocarbon) refrigerant that is non-flammable and non-toxic to humans. In the late 1980's, scientists discovered that widespread use of R-12 was damaging the Earth's ozone layer.
 Manufacturers modified the R-134a in the mid-1990s. R-134a is an HFC-based (hydrofluorocarbon) refrigerant that does not have the ozone-depleting properties of R-12 / Freon. The latest refrigerant is R-1234yf, which produces less greenhouse gases. Europe needs to use the R-1234yf, and in the near future it is likely to be the new standard in the United States.
 
+## SWOT Analysis
+#### STRENGTH 
+1) Eliminate human error that can occur with attempting to control temperatures manually. 
+2) Save time. 
+3) Minimize costs. Automate your process from start to finish.
+#### Weaknesses
+1) Recalibration is difficult
+2) As output voltage is very small so it needs amplification
+3) Require expensive TC wire from the sensor to recording device
+#### Opportunities
+1) Good reproducibility
+2) High-speed response
+3) They are rugged
+4) They are a self-power active device
+#### Threads
+1) The cold junction and lead compensation is essential
+2) Less sensitivity
+3) They require a reference for operation
+4) The stray voltage pick up is possible
+## 4W's and 1 H
+#### Who.
+#### When
+If it falls below the set temperature, it sends a signal to activate the heater to raise the temperature back to the setpoint.
+#### Where
+We commonly use temperature control systems in Air Conditioners, Refrigerators, geysers, etc. 
+where the temperature is automatically adjusted as per the input settings.
+#### What
+The controller takes an input from a temperature sensor and has an output that is connected to a control element such as a heater or fan.
+#### How
+A temperature controller is an instrument used to control temperature calculating the difference between a setpoint and a measured temperature.
+
 ----------------------------------------
 ##  Requirements:
 ##  High Level Requirements ##
