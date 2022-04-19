@@ -35,10 +35,10 @@ Manufacturers modified the R-134a in the mid-1990s. R-134a is an HFC-based (hydr
 | | LLR_4.2 |  it switch off coolent temperature inside car is mismatch with input temperature by user  |  
 -----------------------------------------------------------------------------------
 #
-| HLR_Test ID | Description | Input | Expected output | Actual Output | Passed Or Not |
-| --- | --- | --- | --- | --- | --- |
-| 01 | it shall read temperature from sensor  | temperature sensor given 28| temperature shown 28 | temperature shown 28 | ✅ |
-| 02 | It shall  | fuel sensor given 28| fuel remaining 14L it is b\w 0-50L |  fuel remaining 14L it is b\w 0-50L | ✅ |
-| 03 | It shall have mileage of 20Kmp/h | fuel sensor given 50| it will travel 500kmph with remaing fuel | it will travel 500kmph with remaing fuel|✅ |
-| 04 | It shall have fuel indication alert if fuel range is less than 10% | fuel sensor given 9| fuel_range_low | fuel_range_low| ✅ |
+| HLR_Test ID | Description | Input | Expected output | Actual Output | 
+| --- | --- | --- | --- | --- | 
+| 01 | it shall read temperature from sensor  | temperature sensor given 28| temperature shown 28 | temperature shown 28 |
+| 02 | It shall have temperature sensor to detect | input temperature by user| it is displaying temperature |  it detects the temperature |
+| 03 | It shall switch off the coolent when temperature is matches with input temperature. | input temperature by user | switch off the coolant | switch off the coolant |
+| 04 |  It shall switch on the coolent when temperature is dismatch with input temperature. | input temperature by user| switch off the coolant | switch off the coolant| 
 -----------------------------------------------------------------------
