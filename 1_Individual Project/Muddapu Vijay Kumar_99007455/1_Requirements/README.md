@@ -6,40 +6,11 @@
 
 
 
-#### Power:
-* It is estimated that one unit of energy saved at the point of final use is equal to 2.3 units of energy produced.
-
-* If energy saving practices are properly implemented, the equivalent of about 25,000 MW of electricity can be generated through the promotion of energy efficient measures.
-
-#### PIR motion sensor for automatic light control
-
-* The PIR Motion Sensor is a fully automatic indoor and outdoor security / courtesy light controller capable of controlling 2000W incandescent or 30W x 20 fluorescent light day and night. The built-in PC infrared (PIR) motion sensor turns on the attached lighting system as it detects movement in its coverage area. During the day, the sensor built into the photo cell saves electricity by disabling the lights. You can reduce your electricity bills by using PIR motion sensors and occupancy sensors.
-
-* An adjustable time knob lets you choose how long the light lasts after activation and thus prevents power loss. In the evening or at night, you can also manage when the lights should be on through the LUX adjustment knob provided in the sensor.
-
-#### Energy saving sensor:
-
-* Using PIR sensors can save a lot of energy by turning off the lights when the space is not in use. Savings are huge in large facilities.
-
-* It is estimated that one unit of energy saved at the point of final use is equal to 2.3 units of energy produced.
-
-* Approximately 25,000 MW of electricity equivalent capacity can be saved by promoting energy efficient measures if energy saving methods are implemented properly.
-
-* PIR motion sensors for home security
-
-* If PIR motion sensors are installed in the front or backyard of your home, they serve as security sensors at night. In case any body jumps or sneaks into its detection range, the attached lights / siren or beep may automatically turn on to intimidate the intruder.
-
-
 
 #### Applications: -
+*The wiper serves to clean the windshield of the car at the front and rear, although not all cars have wipers on the rear side. 
+*WIper works by removing oil, dust, rainwater, and dirt that get stuck to the windshield.
 
-* Common toilets, for lights & exhaust fans
-* Common staircase / Entrance / Basements
-* Parking areas / garden lights
-* Living room, Malls, ATMS
-* Changing rooms in shops
-* Offices / Conference Room
-* Corridors & many more!
 
 
 --------------------------------------------------------
