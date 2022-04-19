@@ -1,2 +1,1 @@
-# GENESIS_AUTO1_TEAM6_Maruti_Dzire
-Automotive System
+# MMC-APRiL2022-TEAM17-Home Automation
