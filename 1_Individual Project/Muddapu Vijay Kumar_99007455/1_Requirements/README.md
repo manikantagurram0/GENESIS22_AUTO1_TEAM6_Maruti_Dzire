@@ -1,20 +1,10 @@
-### Automatic Lights
-#### Working principle: -
+### Automatic wiper system
 
-* The PIR sensor senses the movement of the human body through changes in the ambient temperature as the human body passes through it.
+####  introduction:
 
-* Then it turns on the lighting load to which it is connected.
-
-* The load of light will remain on until it senses movement.
-
-* Once the motion is caught, it stops the lighting load.
-
-* At night, the LUX adjustment knob allows you to adjust the light based on which the light load will either turn on / off automatically.
+* we are doing a project on body control system in that i have taken a feature of wiper system. A windshield wiper system comprises a wiper drive and two wiper arms. The drive moves the two wiper arms at a certain angle across the windshield, providing a clear view for the driver and passenger. A specially-shaped rubber wiping lip ensures an optimal wiping result.
 
 
-#### Brief introduction:
-
-* The PIR motion sensor switch can detect infrared rays emitted from the human body. The active presence of the human body in the detection range / coverage area of light or any other electronic device can be activated automatically and when it is not there, the light will automatically become inactive.
 
 #### Power:
 * It is estimated that one unit of energy saved at the point of final use is equal to 2.3 units of energy produced.
