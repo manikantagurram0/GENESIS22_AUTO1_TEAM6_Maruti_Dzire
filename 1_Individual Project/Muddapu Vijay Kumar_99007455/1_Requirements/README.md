@@ -8,10 +8,10 @@
 
 
 #### Applications: -
-*The wiper serves to clean the windshield of the car at the front and rear, although not all cars have wipers on the rear side.
-*WIper works by removing oil, dust, rainwater, and dirt that get stuck to the windshield.
-*It is used in four wheelers
-*It is used in aircrafts
+* The wiper serves to clean the windshield of the car at the front and rear, although not all cars have wipers on the rear side.
+* WIper works by removing oil, dust, rainwater, and dirt that get stuck to the windshield.
+* It is used in four wheelers
+* It is used in aircrafts
 
 
 --------------------------------------------------------
