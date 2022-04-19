@@ -1,7 +1,7 @@
 ------------------------------------------------------------------------
-   ##                                                    Feature_1
+   #                                                    Feature_1
 --------------------------------------------------------------------------
-# AUTOMATIC WINDOW OPENING AND SUNROOF
+## AUTOMATIC WINDOW OPENING AND SUNROOF
 ### Abstract
 Power windows or electric windows are automobile windows which can be
 raised and lowered by pressing a button or switch, as opposed to using a crank handle.
@@ -64,9 +64,9 @@ This feature uses a circuit that monitors the amount of time you hold the switch
 ---------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
-   ##                                                    Feature_2
+   #                                                    Feature_2
 --------------------------------------------------------------------------
-# Air Conditioning System
+## Air Conditioning System
 The air conditioning system in the car works by connecting the refrigerant between the state of liquid and gas. As the refrigerant changes conditions, it absorbs heat and moisture from the vehicle and allows the system to release cool, dry air.
 To change the refrigerant between liquid and gaseous state, the air conditioning system works to control the pressure and temperature.
 
@@ -103,10 +103,10 @@ Manufacturers modified the R-134a in the mid-1990s. R-134a is an HFC-based (hydr
 #
 | HLR_Test ID | Description | Input | Expected output | Actual Output | 
 | --- | --- | --- | --- | --- | 
-| 01 | it shall read temperature from sensor  | temperature sensor given 28| temperature shown 28 | temperature shown 28 |
-| 02 | It shall have temperature sensor to detect | input temperature by user| it is displaying temperature |  it detects the temperature |
-| 03 | It shall switch off the coolent when temperature is matches with input temperature. | input temperature by user | switch off the coolant | switch off the coolant |
-| 04 |  It shall switch on the coolent when temperature is dismatch with input temperature. | input temperature by user| switch off the coolant | switch off the coolant| 
+| 01 | it shall read temperature from sensor  | temperature sensor given 28| temperature shown 28 | Yet to do |
+| 02 | It shall have temperature sensor to detect | input temperature by user| it is displaying temperature |  Yet to do |
+| 03 | It shall switch off the coolent when temperature is matches with input temperature. | input temperature by user | switch off the coolant | Yet to do |
+| 04 |  It shall switch on the coolent when temperature is dismatch with input temperature. | input temperature by user| switch off the coolant | Yet to do| 
 -----------------------------------------------------------------------
 
 
