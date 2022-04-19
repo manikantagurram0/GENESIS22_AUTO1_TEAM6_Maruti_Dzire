@@ -45,6 +45,11 @@
 | HLR_1 | It shall have optical sensor.|
 | HLR_2 |    |
 ---------------------------------
+## LOW LEVEL REQUIREMENTS:- ##
+| HLR_ID |LLR_ID | Design_consideration | 
+| - | -| -| 
+| HLR_1 | LLR_1 | optical sensor to detecct the moisture  |
+| HLR_2| LLR_2 |  |  
 ## Advantages:
 * Low cost automation project.
  
@@ -53,12 +58,3 @@
 * Less power consumption.
  
  * Operating principle is very easy Installation is simple. 
-
-
-
-
-## LOW LEVEL REQUIREMENTS:- ##
-| HLR_ID |LLR_ID | Design_consideration | 
-| - | -| -| 
-| HLR_1 | LLR_1 | optical sensor to detecct the moisture  |
-| HLR_2| LLR_2 |  |  
