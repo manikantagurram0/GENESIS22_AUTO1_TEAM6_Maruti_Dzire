@@ -36,10 +36,8 @@
 ##  High Level Requirements ##
 |ID| Description|
 | :-------: |----------------------------------------------------------------------------------------------------------------------------------|
-| HLR_1 | It shall have pir motion sensor .|
-| HLR_2 | It shall have led to switch on/off  . |
-| HLR_3 | It shall switch on when motion detects.  |
-| HLR_4 | It shall switch off when motion not detects.  |
+| HLR_1 | It shall have optical sensor.|
+| HLR_2 |   . |
 ---------------------------------
 
 
@@ -48,11 +46,5 @@
 ## LOW LEVEL REQUIREMENTS:- ##
 | HLR_ID |LLR_ID | Design_consideration | 
 | - | -| -| 
-| HLR_1 | LLR_1.1 | It shall pir sensor to detecct motion  |
-| | LLR_1.2 | it shall have proper connection to board |  
-| HLR_2 | LLR_2.1 | It shall have led to switch on/off |
-| | LLR_2.2 | it shows the led to on/off | 
-| HLR_3 | LLR_3.1 | It shall switch on when motion detects |
-| | LLR_3.2 | it switch on when motion detect on pir sensor |  
-| HLR_4 | LLR_4.1 | It shall switch on when motion detects |
-| | LLR_4.2 | it switch off when motion detect on pir sensor  |  
+| HLR_1 | LLR_1.1 | optical sensor to detecct the moisture  |
+| | LLR_1.2 |  |  
