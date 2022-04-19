@@ -16,6 +16,8 @@
 
 *It is used in aircrafts
 
+*
+
 
 
 --------------------------------------------------------
@@ -43,6 +45,14 @@
 | HLR_1 | It shall have optical sensor.|
 | HLR_2 |    |
 ---------------------------------
+## Advantages:
+* Low cost automation project.
+ 
+* Free from wear adjustment.
+ 
+* Less power consumption.
+ 
+ * Operating principle is very easy Installation is simple. 
 
 
 
