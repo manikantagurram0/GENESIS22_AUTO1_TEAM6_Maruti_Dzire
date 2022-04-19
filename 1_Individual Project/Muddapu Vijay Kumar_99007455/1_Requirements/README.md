@@ -12,6 +12,10 @@
 
 *WIper works by removing oil, dust, rainwater, and dirt that get stuck to the windshield.
 
+*It is used in four wheelers
+
+*It is used in aircrafts
+
 
 
 --------------------------------------------------------
