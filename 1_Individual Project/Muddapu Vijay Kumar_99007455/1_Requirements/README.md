@@ -37,13 +37,13 @@
 |ID| Description|
 | :-------: |----------------------------------------------------------------------------------------------------------------------------------|
 | HLR_1 | It shall have optical sensor.|
-| HLR_2 |    |
+| HLR_2 |  It shall have rain sensor  |
 ---------------------------------
 ## LOW LEVEL REQUIREMENTS:- ##
 | HLR_ID |LLR_ID | Design_consideration | 
 | - | -| -| 
 | HLR_1 | LLR_1 | optical sensor to detecct the moisture  |
-| HLR_2| LLR_2 |  |  
+| HLR_2| LLR_2 | rain sensor is used to detect the speed |  
 ## Advantages:
 * Low cost automation project.
 * Free from wear adjustment.
