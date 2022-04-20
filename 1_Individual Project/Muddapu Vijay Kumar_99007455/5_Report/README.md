@@ -56,6 +56,18 @@ An automotive wiper is a metal arm, hinging at one end and with a long rubber bl
 
 The blade swings back and forth over the windshield, pushing water or other dust particles away from the surface. The speed adjusted by the driver and has the control settings near the driver seat.
 
+## Regional analysis includes
+North America (U.S., Canada)
+Latin America (Brazil, Rest Of Latin America)
+Western Europe (Germany, Italy, France, U.K, Spain, Rest Of Western Europe)
+Eastern Europe (Russia, Rest Of Eastern Europe)
+Asia Pacific (China, India, ASEAN, Australia & New Zealand)
+Japan
+Middle East and Africa (GCC countries, S. Africa and Rest Of MEA) 
+The report is a compilation of first-hand information, qualitative and quantitative assessment by industry analysts, inputs from industry experts and industry participants across the value chain.
+
+The report provides in-depth analysis of parent market trends, macro-economic indicators and governing factors along with market attractiveness as per segments. The report also maps the qualitative impact of various market factors on market segments and geographies.
+
 
 
 
