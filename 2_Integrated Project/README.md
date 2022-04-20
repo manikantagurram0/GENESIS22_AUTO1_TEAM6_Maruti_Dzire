@@ -152,9 +152,8 @@ Symptoms of faulty AC condenser: Cold air does not come out, noticeable leakage 
 Replacing the car air conditioning conditioner will allow your vents to always blow cool air.
 Maruti Suzuki Swift Dzire is a compact sedan made by domestic manufacturer Maruti. It plays the manual air cooling and heating option in its lower and mid-range terms and has a fully automatic climate control system at the top. There is no rear AC vent in any of the trims of this model available in the market. Fully automated climate control is essential in the car, as it allows the driver to focus on his basic driving task and not be bothered by things like repeatedly adjusting the cabin temperature.
 
- 
-
 Among the competitors in the market, TATA Zest is the only car that comes with automatic climate control system. Others, such as the TATA Manza, Toyota Etios and Volkswagen Polo only operate standard air cooling and heating systems manually.
+
 ---------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
