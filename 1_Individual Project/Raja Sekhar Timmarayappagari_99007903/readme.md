@@ -7,6 +7,24 @@ Emergency vehicles usually have distinctive lighting equipment to warn drivers a
 
 Features: Lighting controls according to our need 
 
+Strength: Lighting regulations for better visibility & safety
+Strict lighting regulations in developed nations of Europe and North America have driven the automotive lighting market. Vehicle lighting plays a crucial role, especially when driving on roads with heavy traffic. Road accidents are a major concern for governments across the world. According to the World Health Organization (WHO), 1.3 million people die each year due to road traffic collisions. Road traffic crashes cost most countries 3% of their gross domestic product. Therefore, it is important to better the driving conditions, which can be achieved partially by improving the lighting system. In 2011, with an aim to increase road safety, the European Union mandated daytime running lights (DRLs) on all new types of motor vehicles. The function of DRL is not to help the driver to see the road but to help other road-users to see the vehicle. According to the National Highway Traffic Safety Administration (NHTSA) of the US Department of Transportation, DRL has reduced fatal road accidents by approximately 13.8%. Regulatory legislation like this is expected to influence the automotive lighting industry.
+
+Weakness: High cost of LED lights
+The high cost of LED lights is a key concern for the automotive lighting market. Halogen and Xenon/HID, which were used earlier, have become less popular with the introduction of new technologies. Halogen lights have the major disadvantage of heating and energy-wasting, whereas Xenon light is more complex and requires some time to achieve full brightness. The LED, on the other hand, is small and allows great manipulation for various shapes and designs. It consumes less energy and emits a brighter light than halogen. However, as LED is more expensive than other technologies, the use of LED is confined to high-end or premium vehicles. The high cost of LED can be attributed to its high production cost. Materials such as Indium gallium nitride, Aluminum gallium indium phosphide, and Aluminum gallium arsenide are the major cost incurring substrates for manufacturers. Nowadays, LEDs are used with a projector as compared with conventional lights that required reflectors. Projector headlights are more expensive than reflector headlights and require more space within the vehicle. While the use of LED in automotive is currently low, it is expected to increase in the coming years, which in turn would help reduce its price.
+
+Opportunity: Evolution of new technologies
+Matrix LED, OLED, and laser lighting are some of the new and promising technologies for automotive lighting manufacturers. In matrix LED headlights, the high-beam unit is made up of 25 individual segments. The small LEDs work in conjunction with lenses, and reflectors connected in series are activated and deactivated or dimmed individually according to the situation. This enables the system to react precisely to other cars. It recognizes other cars using a camera and illuminates the road brightly. For instance, Audi’s Matrix LED headlights get the information they need from a camera, the navigation system, and other sensors.
+
+Challenges: Less penetration of advanced lighting in the commercial vehicle segment
+Commercial vehicles such as freight trucks operate thousands of miles every day. Therefore, the use of advanced lighting technologies may not be feasible. High cost discourages manufacturers from providing advanced lighting systems in this vehicle segment. Thus, only a few commercial vehicle manufacturers have introduced advanced lighting systems in their vehicles.
+
+LED light technology is estimated to grow at the fastest CAGR during the forecast period
+Premium vehicles are typically installed with LED lights due to their numerous benefits such as low power consumption, more adaptive features, and high aesthetic value. Moreover, LED headlights have less impact on the driver who is on the opposite side in comparison to xenon lights, and hence, this technology is accepted widely in the market. An increasing number of newl
+
+## 4Ws & 1H
+### What 
+# 
 ## Requirements:
 ### High Level Requirements 
 LLR ID	| Description
@@ -40,6 +58,10 @@ T06 | Switch off | Front Lights get off | Yet to | Yet to
 ## Market Analysis
 What types of exterior lighting are there?
 Automotive exterior lighting cover the front, rear, and sides of a vehicle, although some special functions may be on the roof as well. For the two main purposes of illumination and signaling, various lighting functions are defined by law in their photometric requirements, position, size, color of light, and many more aspects.
+The global Automotive Lighting Market is estimated to be USD 27.0 billion in 2020 to USD 34.9 billion in 2025, at a CAGR of 5.3% during the forecast period. An increase in premium and SUV sales and advancements in lighting technology are some of the major factors driving the growth of the automotive lighting industry.
+
+![image](https://user-images.githubusercontent.com/98815258/164147451-2bc348fb-0c89-4562-86a7-fdf4906d70cd.png)
+
 
 Front exterior lighting includes the:
 
