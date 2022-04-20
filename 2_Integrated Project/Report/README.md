@@ -1,3 +1,14 @@
+---------------------------------
+![Screenshot (22)](https://user-images.githubusercontent.com/98829237/164151542-6dba4b48-1944-4d16-b661-759bf9b52901.png)
+--
+
+![Screenshot (23)](https://user-images.githubusercontent.com/98829237/164151684-daa17582-9ba0-46bd-98f7-ca8dcacec3fc.png)
+
+---
+![Screenshot (24)](https://user-images.githubusercontent.com/98829237/164151758-3e2cf8f4-cf2e-4490-a9e6-234b5589fb9e.png)
+----
+![Screenshot (25)](https://user-images.githubusercontent.com/98829237/164151855-393f20e8-bfd7-49d8-8e4b-50170e029eae.png)
+
 ------------------------------------------------------------------------
    #                                                    Feature_1
 --------------------------------------------------------------------------
@@ -315,16 +326,66 @@ T04 | On left turn of car tyres |  left indicator light glows | Yet to | Yet to
 T05 | Switch on | Front Lights get on | Yet to | Yet to
 T06 | Switch off | Front Lights get off | Yet to | Yet to
 
----------------------------------
-![Screenshot (22)](https://user-images.githubusercontent.com/98829237/164151542-6dba4b48-1944-4d16-b661-759bf9b52901.png)
---
 
-![Screenshot (23)](https://user-images.githubusercontent.com/98829237/164151684-daa17582-9ba0-46bd-98f7-ca8dcacec3fc.png)
 
----
-![Screenshot (24)](https://user-images.githubusercontent.com/98829237/164151758-3e2cf8f4-cf2e-4490-a9e6-234b5589fb9e.png)
-----
-![Screenshot (25)](https://user-images.githubusercontent.com/98829237/164151855-393f20e8-bfd7-49d8-8e4b-50170e029eae.png)
+
+## Market Analysis
+What types of exterior lighting are there?
+Automotive exterior lighting cover the front, rear, and sides of a vehicle, although some special functions may be on the roof as well. For the two main purposes of illumination and signaling, various lighting functions are defined by law in their photometric requirements, position, size, color of light, and many more aspects.
+The global Automotive Lighting Market is estimated to be USD 27.0 billion in 2020 to USD 34.9 billion in 2025, at a CAGR of 5.3% during the forecast period. An increase in premium and SUV sales and advancements in lighting technology are some of the major factors driving the growth of the automotive lighting industry.
+
+![image](https://user-images.githubusercontent.com/98815258/164147451-2bc348fb-0c89-4562-86a7-fdf4906d70cd.png)
+
+
+Front exterior lighting includes the:
+
+Low beam headlamp (passing beam)
+High beam headlamp (driving beam)
+Front fog headlamp
+Daytime running light (DRL)
+Turn indicator
+Front position lamp
+In the rear, the lighting includes the:
+
+Taillight position lamp (tail lamp)
+Taillight stop-lamp
+Turn indicator
+Reversing light
+Rear fog lamp
+Center high-mounted stop light (CHMSL)
+Along the sides of a vehicle, there may be:
+
+A side turn indicator (fender or side mirror)
+Side marker lights
+![image](https://user-images.githubusercontent.com/98815258/164146707-cbde619f-3bbf-4472-ae29-5d0d0fd9db07.png)
+
+Special Lighting
+In addition to the lighting mentioned, there are other special lights that may be on a vehicle.
+License plate illumination lights: A special group of lights illuminate the license plate to make sure the legal plates are visible any time in darkness, or visually demanding weather conditions.
+
+Signature lights: In addition to the required lighting functions, some countries also allow signature light elements, such as illuminated logos of the OEM brand to be used on the exterior.  
+
+Other lights include official authority/emergency light functions for:
+Firefighters, police, ambulance (blue)
+Road maintenance
+Extended size vehicles
+Hazard transport warning lights (yellow)
+ 
+V2X lights: With the advent of autonomous cars and electrical cars, a very special group of lighting functions has emerged and developed almost silently.  These so-called "vehicle to X" (V2X) lighting functions are a hot topic of interest and research, along with sensor systems (such as cameras, LiDAR, and radar). V2X systems are a means of light-based visual communication to signal to pedestrians or other traffic participants ("X") the status or intention of silent vehicle, or one without a driver.
+
+### Challenges (Automatic lights)
+Automotive exterior lighting serves to ensure safety in road traffic. Using vehicle lights help the driver illuminate the lane and recognize the road, obstacles and traffic signs. The headlights with the high beam, low beam and fog light functions are primarily used for this purpose.
+
+For drivers on the road, exterior lighting is used to ensure that road users perceive the presence of the vehicle, recognize a driver's intentions, and can react accordingly to them. Daytime running lights, turn lights, and brake lights are used for this purpose.
+
+### specific functions of automotive exterior lighting
+Signal lamps are designed to directly shine into the eyes of traffic participants. They are a major element of the visibility of a vehicle and therefore an important aspect of road safety. The purpose of these lamps is to signal a position or action, like taking a turn or braking. They also create an impression of the outer dimensions of the vehicle by correct placement of position lights.
+
+Headlamps (low beam and high beam) what makes it possible for any vehicle to be driven at night. They are designed to illuminate the road ahead so drivers can see where they are going. They create contrast in case any obstacles or other vehicles a in the driving path of you vehicle. 
+Low beams utilize a cut-off line in the beam pattern to avoid glaring oncoming traffic. They illuminate mostly the road and a bit left and right of it, but do not shine light into oncoming traffic.
+
+High beams are also called driving beams. These are the headlights with the most range and create the best driver view at night. However, these headlights must only be used when there is no oncoming traffic since it would be blinding to the drivers of the oncoming traffic. For that reason, high beam headlights must be deactivated manually or must be controlled by an adaptive driving beam (ADB) system.
+
 
 
 
