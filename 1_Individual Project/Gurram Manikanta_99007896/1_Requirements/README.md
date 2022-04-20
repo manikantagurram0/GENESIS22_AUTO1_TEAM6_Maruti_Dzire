@@ -76,7 +76,8 @@ is then sent through the air vents in its chilled state.
 3) They require a reference for operation
 4) The stray voltage pick up is possible
 ## 4W's and 1 H
-#### Who.
+#### Who
+who feel good cimate for the occupants.
 #### When
 If it falls below the set temperature, it sends a signal to activate the heater to raise the temperature back to the setpoint.
 #### Where
