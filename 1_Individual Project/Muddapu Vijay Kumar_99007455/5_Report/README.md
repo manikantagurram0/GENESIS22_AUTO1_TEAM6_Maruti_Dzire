@@ -50,4 +50,12 @@
 * Less power consumption.
 * Operating principle is very easy Installation is simple. 
 ## Market Analysis
+ Automotive wiper is a windscreen wiper or windshield wiper. Automotive wiper is a device used to remove water, rain, snow, ice and debris from a windscreen or windshield. All motor vehicles, including cars, trucks, train locomotives, watercraft and so on are equipped with automotive wipers.
+
+An automotive wiper is a metal arm, hinging at one end and with a long rubber blade attached to its other end. The arm is powered by an electric motor. Other source of power for the metal arm is pneumatic power which is also used in few vehicles.
+
+The blade swings back and forth over the windshield, pushing water or other dust particles away from the surface. The speed adjusted by the driver and has the control settings near the driver seat.
+
+Find Out More about the Report Coverage
+
 
