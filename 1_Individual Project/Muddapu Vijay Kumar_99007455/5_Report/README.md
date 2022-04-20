@@ -56,6 +56,6 @@ An automotive wiper is a metal arm, hinging at one end and with a long rubber bl
 
 The blade swings back and forth over the windshield, pushing water or other dust particles away from the surface. The speed adjusted by the driver and has the control settings near the driver seat.
 
-Find Out More about the Report Coverage
+
 
 
