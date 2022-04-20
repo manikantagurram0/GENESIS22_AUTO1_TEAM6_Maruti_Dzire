@@ -19,6 +19,43 @@ match the levels you've set inside.
 Warm temperatures are controlled as they are in a standard car heater, but to cool the air, the car is fitted with an additional 
 compressor under the bonnet that directs air to a condenser. This then charges the air with refrigerant to cool it down, and the air 
 is then sent through the air vents in its chilled state.
+
+-------------------------
+##  Requirements:
+##  High Level Requirements ##
+
+|ID| Description|
+-- |-
+| HLR_1 | It shall have temperature sensor to detect .|
+| HLR_2 | It shall set the temperature to which user want  . |
+| HLR_3 | It shall switch off the coolent when temperature is matches with input temperature.  |
+| HLR_4 | It shall switch on the coolent when temperature is dismatch with input temperature.  |
+---------------------------------
+
+
+
+
+## LOW LEVEL REQUIREMENTS:- ##
+| HLR_ID |LLR_ID | Design_consideration | 
+| - | -| -| 
+| HLR_1 | LLR_1.1 | It shall temperature sensor to detecct temperature  |
+| | LLR_1.2 | it shall have proper logic to match with input temperature |  
+| HLR_2 | LLR_2.1 | It shall read input from user |
+| | LLR_2.2 | it shall set temperature which reads from user | 
+| HLR_3 | LLR_3.1 | It shall switch on ac when temperature inside car is mismatch with input temperature by user |
+| | LLR_3.2 | it switch on coolent temperature inside car is mismatch with input temperature by user |  
+| HLR_4 | LLR_4.1 | It shall switch off ac when temperature inside car is mismatch with input temperature by user |
+| | LLR_4.2 |  it switch off coolent temperature inside car is mismatch with input temperature by user  |  
+-----------------------------------------------------------------------------------
+#
+| HLR_Test ID | Description | Input | Expected output | Actual Output | 
+| --- | --- | --- | --- | --- | 
+| 01 | it shall read temperature from sensor  | temperature sensor given 28| temperature shown 28 | Yet to do |
+| 02 | It shall have temperature sensor to detect | input temperature by user| it is displaying temperature |  Yet to do |
+| 03 | It shall switch off the coolent when temperature is matches with input temperature. | input temperature by user | switch off the coolant | Yet to do |
+| 04 |  It shall switch on the coolent when temperature is dismatch with input temperature. | input temperature by user| switch off the coolant | Yet to do| 
+-----------------------------------------------------------------------
+---------------------------------------------------------------------------
 ## SWOT Analysis
 #### STRENGTH 
 1) Eliminate human error that can occur with attempting to control temperatures manually. 
