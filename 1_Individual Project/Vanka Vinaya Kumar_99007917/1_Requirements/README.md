@@ -58,3 +58,71 @@ Can be used in the car which are capable of having sensors to detect the opening
 ##### HOW
 You tap and release the down switch and the window goes all the way down. 
 This feature uses a circuit that monitors the amount of time you hold the switch down.
+
+----------
+# Introduction
+Automotive power windows derive power from the battery electrical system. Typically, battery voltage is routed to the fuse panel where a fuse, relay, or 
+circuit breaker is used to transfer voltage to the power window master switch (or control module). The master switch is usually located in the driver door or the 
+console. It is called a master switch because it operates all the power windows in the vehicle and contains the window lock-out switch (if applicable). 
+Additionally, each door which houses a power window assembly is equipped with a single switch that operates only that window.Many late model vehicles also route 
+window control systems through some type of general electrical module (GEM), body control module (BCM) or window control module (WCM). This is a typical system and 
+some vehicle power window control systems will be different.
+
+# Requirements
+## High Level Requirements
+* The window has to start moving within specified milliseconds after the command has been issued.
+* The window has to be fully opened and closed within specified milliseconds
+* Power windows can detect an object if interferred and stop at that place as soon as it detects the object.
+
+## Low Level Requirements
+* The driver command can also have a priority over the passenger command
+* If the up or down command has been issued for at least one second then the window should enter the auto behaviours where the window opens or closes completely.
+* The window object sensor should detect and make stop the window as soon as possible within the specified milliseconds.
+  
+# Market Analysis
+The global automotive power window market has been segmented into vehicle type, market, and region. By vehicle type, further, the market has been segmented into 
+passenger cars and commercial vehicles. The passenger car segment is expected to dominate the market over the forecast period owing to the rise in the adoption of 
+the advanced technologies in the passenger cars owing to safety and convenient features. The commercial vehicle segment is expected to show steady growth in the 
+market over the forecast period. By market, the global automotive power window market is segmented into the aftermarket and OEMs. The OEM segment is expected to show 
+exponential growth in the market over the forecast period. The increasing adoption of a power window in the mid-level entry segment cars by OEMs is expected to drive 
+the growth of this segment in the market. The aftermarket segment is expected to show steady growth in the market over the forecast period owing to the high cost of 
+power window replacement in the car after accidents.
+
+## KEY PLAYERS COVERED IN THE AUTOMOTIVE POWER WINDOW MARKET:
+Some of the major companies that are present in the automotive power window market include Robert Bosch GmbH, Denso Corporation, AISIN SEIKI Co., Ltd., Valeo, Johnson Electric Holdings Ltd., Grupo Antolin, Continental AG, among others.  
+
+## SEGMENTATION
+
+| ATTRIBUTE| Details|
+|----------|--------|
+| By Vehicle Type| Passenger and Commercial|
+| By Market| Aftermarket and OEM's|
+
+
+## History
+Packard had introduced hydraulic window lifts (power windows) in fall of 1940, for its new 1941 Packard 180 series cars.[1] [2] This was a hydro-electric system. In 1941, the Ford Motor Company followed with the first power windows on the Lincoln Custom (only the limousine and seven-passenger sedans).[3] Cadillac had a straight-electric divider window (but not side windows) on their series 75.
+
+Power assists originated in the need and desire to move convertible body-style tops up and down by some means other than human effort. The earliest power assists were vacuum-operated and were offered on Chrysler Corporation vehicles, particularly the low-cost Plymouth convertibles in the late 1930s.
+
+Shortly before World War II, General Motors developed a central hydraulic pump for working convertible tops.[4] This system was introduced on 1942 convertibles built by GM. Previously, GM had used a vacuum system which did not have the power to handle increasingly larger and complex (four side-windows vs. only two) convertible top mechanisms.
+
+# Test Plan and Output
+
+
+### High Level Test Plans
+----------------------------------------------------------------------------------------------------------------------
+| SR.NO  | TEST                                         |   INPUT      | EXP. OUTPUT     | OUTPUT        |Type of test |
+|--------|--------------------------------------------  |--------------|-----------------|---------------|-------------|
+|    1)  | Check if system is working as expected       |              |                 |               |             |          
+|    2)  | Check if system is able to handle conditions |              |                 |               |             |
+|    3)  | Check for sensors and working                |              |                 |               |             |
+
+
+### Low Level Test Plans
+
+| TEST ID | Input_Specification | Output_Specification | Expected_Output |Observed_Output| TEST PASS/FAIL|
+| ----- | ----- | ------- | ------- | ------ |------ |  
+|TC_1| Check if window up command is working properly  | Window Close| Window Close| Window close | p/f|
+|TC_2|  Check if window down command is working properly | Window open | Window down| Window down | p/f|
+|TC_3|  Check if driver has commands over passenger windows | give commands to passenger windows | give commands to passenger windows | give command to windows | p/f|
+|TC_4| Check if the window object sensor is working propery| Object interferes window should stop| object interferes window should stop| object interferes window should stop| p/f
