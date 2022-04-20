@@ -91,3 +91,17 @@ where the temperature is automatically adjusted as per the input settings.
 The controller takes an input from a temperature sensor and has an output that is connected to a control element such as a heater or fan.
 #### How
 A temperature controller is an instrument used to control temperature calculating the difference between a setpoint and a measured temperature.
+## Market analysis
+Air conditioning is an important part of the car air conditioning system. In your car's air conditioning system, a refrigerant is used to cool the air as it passes. The role of condenser is to convert the refrigerant from high temperature vapor to liquid by thickening.
+
+If the condenser fails, your entire air conditioning system will be affected. The condenser may need to be replaced or repaired to restore proper functioning to your car's air conditioning system.
+
+Symptoms of faulty AC condenser: Cold air does not come out, noticeable leakage ... etc.
+![main orig](https://user-images.githubusercontent.com/98829237/164154833-629ccca6-2763-46c1-a7ee-b93ab2aa993f.jpg)
+
+Replacing the car air conditioning conditioner will allow your vents to always blow cool air.
+Maruti Suzuki Swift Dzire is a compact sedan made by domestic manufacturer Maruti. It plays the manual air cooling and heating option in its lower and mid-range terms and has a fully automatic climate control system at the top. There is no rear AC vent in any of the trims of this model available in the market. Fully automated climate control is essential in the car, as it allows the driver to focus on his basic driving task and not be bothered by things like repeatedly adjusting the cabin temperature.
+
+ 
+
+Among the competitors in the market, TATA Zest is the only car that comes with automatic climate control system. Others, such as the TATA Manza, Toyota Etios and Volkswagen Polo only operate standard air cooling and heating systems manually.
