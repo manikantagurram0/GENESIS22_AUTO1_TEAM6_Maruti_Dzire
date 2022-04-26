@@ -1,3 +1,14 @@
+ # Modern Automotive Headlamp Systems
+Modern automotive headlamp systems will rely on use of sensors and actuators in the very near future. While various bus networks are workable the Local Interconnect Network (LIN) bus network may be the most workable because of its relative cost and performance advantages over the other contenders.
+
+Modern automotive headlamp systems will rely on use of sensors and actuators in the very near future. While various bus networks are workable the Local Interconnect Network (LIN) bus network may be the most workable because of its relative cost and performance advantages over the other contenders.
+
+A LIN is used as an in-vehicle networking and communications serial bus between “smart” sensors and actuators operating at 12V. The LIN utilizes a masterslave configuration with one master control unit and one or more slave units. The LIN master initiates communications and only one slave will respond. Only one message is allowed on the bus at a time, so there is no need to resolve bus collisions. A slave cannot initiate communication, only respond if correctly addressed. Maximum communication speed on a LIN bus is 19200 baud. Every 10ms, a LIN node can send a full 8-byte command with shorter commands being able to run every 5 ms. With this bandwidth the LIN bus can support leveling, bending, AFS (Adaptive Front-lighting System) and ballast functions of a headlamp. Additionally, accurate diagnostic feedback can be provided from the slave unit.
+
+There are multiple architectures that can be utilized for headlamp wiring. The architectures vary depending upon the headlamp type, how the sensors are wired, the physical location of the Lighting Control Units (LCUs), type of actuators and the method used connect all together. There are two wiring architectures used most often for each type of headlamp: Halogen and High Intensity Discharge (HID). Note that both have the LCU in the cabin because of their proximity to the chassis sensors. Figure 1 below represents the wiring architecture for the Halogen headlamp. The LIN bus connection from the LCU to the lamp is a single wire connection, as it is today using the manual controls, but adds the additional opportunity for bending on the same single wire connection.
+
+
+
 # Automatic Lights
 ## Introduction:
 The lighting system of a motor vehicle consists of lighting and signalling devices mounted or integrated at the front, rear, sides, and
