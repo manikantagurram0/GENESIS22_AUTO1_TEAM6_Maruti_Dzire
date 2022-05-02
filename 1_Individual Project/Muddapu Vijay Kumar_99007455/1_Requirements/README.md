@@ -36,15 +36,19 @@
 ##  Requirements:
 ##  High Level Requirements ##
 |ID| Description|
-| :-------: |----------------------------------------------------------------------------------------------------------------------------------|
-| HLR_1 | It shall have optical sensor.|
-| HLR_2 |  It shall have rain sensor  |
----------------------------------
-## LOW LEVEL REQUIREMENTS:- ##
+|-|-
+| HLR_1 | Wiper shall work user switch controls|
+| HLR_2 | Wiper shall work automatically when it's raining |
+
+## LOW LEVEL REQUIREMENTS:- 
 | HLR_ID |LLR_ID | Design_consideration | 
 | - | -| -| 
-| HLR_1 | LLR_1 | optical sensor to detecct the moisture  |
-| HLR_2| LLR_2 | rain sensor is used to detect the speed |  
+| HLR_1 | LLR_1.1 | Ignition On |
+||LLR_1.2| On user switch Wipers Should work |
+| HLR_2|LLR_2.1 | Ignition On |
+||LLR_2.2| Sensor should detect rain |  
+||LLR_2.3| Wiper shall work automatically when it detects rain |  
+
 ## Advantages:
 * Low cost automation project.
 * Free from wear adjustment.
