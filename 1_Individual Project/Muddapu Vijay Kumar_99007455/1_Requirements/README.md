@@ -50,3 +50,5 @@
 * Free from wear adjustment.
 * Less power consumption.
 * Operating principle is very easy Installation is simple. 
+* CONCLUSION 
+Our Automatic multispeed rain operated wiper system works well  with  conductive  sensor. As  future  extraction work  the same can be carried out by optical sensor. As far as accuracy of the system  is concerned it  is more accurate  than conductive sensor. But the reason for not using optical sensor is because due to higher cost 
