@@ -42,31 +42,36 @@ Premium vehicles are typically installed with LED lights due to their numerous b
 ### High Level Requirements 
 LLR ID	| Description
 -|-
-HLR01 | When break applied light shall glow (Back Lights)
-HLR02 | On right turn of car tyre, light shall glow ( Indicator 1)
-HLR03 | On right turn of car tyre, light shall glow ( Indicator 1)
-HLR04 | When Switch on light shall glow (Front Lights)
+HLR01 | Lights shall ON when switch gets ON
+HLR02 | Lights shall glow with high beam on mode1 of another button 
+HLR03 | Lights shall glow with low beam on mode2 of another switch
+HLR04 | Lights shall blink on button press
+HLR05 | Lights shall OFF when switch gets OFF
 
 ### Low Level Requirements
-LLR ID	| Description | HLR ID
+HLR ID| LLR ID	| Description | 
 -|-|-
-LLR01 |	When break applied red light shall glow | HLR01
-LLR02 |break get released red light shall go off  | HLR01
-LLR03	| On Right turn of car tyres, right indicator light shall glow untill it comes to straight line | HLR02
-LLR04	| On Left turn of car tyres, left indicator light shall glow untill it comes to straight line | HLR03
-LLR05 | When Switch on light shall glow (Front Lights) | HLR04
-LLR06 | When Switch off light shall go off (Front Lights) | HLR04
+HLR01| LLR01.1 |	Ignition must be ON|
+||LLR01.2| Switch should be ON | 
+|HLR02|LLR02.1| Ignition must be ON|
+||LLR02.2| Switch should be ON  |
+||LLR02.3| Another switch should be on Mode 1  |
+|HLR03|LLR03.1| Ignition must be ON|
+||LLR03.2| Switch should be ON  |
+||LLR03.3| Another switch should be on Mode 2 |
+HLR04|LLR04.1| Ignition must be ON|
+||LLR04.2| Blink should press once |
+HLR05|LLR05.1| Switch should be OFF |
 
 ## Test Plan 
 
 Test ID |Input | ExpectedOutput | Actual Output | Status 
 -|-|-|-|-
-T01 | Break Applied | Red Light Glows | Yet to | Yet to
-T02 | Break get released | Red Light Gos off | Yet to  | Yet to
-T03 | On Right turn of car tyres |  right indicator light glows | Yet to | Yet to
-T04 | On left turn of car tyres |  left indicator light glows | Yet to | Yet to
-T05 | Switch on | Front Lights get on | Yet to | Yet to
-T06 | Switch off | Front Lights get off | Yet to | Yet to
+T01 | Lights goes ON when Switch ON while Ignition is ON | Lights ON | Passed
+T02 | Switch is ON while Ignition is ON and another switch on mode1|Lights glow with high beam | Lights ON with high beam| Passed
+T03 | Switch is ON while Ignition is ON and another switch on mode2 | Lights glow with low beam | Lights ON with low beam| Passed
+T04 |  flicker button pressed while Ignition is ON| Lights blink|  Lights Blinks | Passed
+T05 | Switch is OFF| lights go OFF| lights go OFF  | Passed
 
 ## Market Analysis
 What types of exterior lighting are there?
