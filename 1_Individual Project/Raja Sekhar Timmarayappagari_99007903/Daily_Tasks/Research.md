@@ -1,6 +1,6 @@
- # Processing 
- # Research
- 
+## Research
+
+
  # Modern Automotive Headlamp Systems
 Modern automotive headlamp systems will rely on use of sensors and actuators in the very near future. While various bus networks are workable the Local Interconnect Network (LIN) bus network may be the most workable because of its relative cost and performance advantages over the other contenders.
 
@@ -130,3 +130,7 @@ Low beams utilize a cut-off line in the beam pattern to avoid glaring oncoming t
 
 High beams are also called driving beams. These are the headlights with the most range and create the best driver view at night. However, these headlights must only be used when there is no oncoming traffic since it would be blinding to the drivers of the oncoming traffic. For that reason, high beam headlights must be deactivated manually or must be controlled by an adaptive driving beam (ADB) system.
 
+## History
+Now, until the 1980s when the reflector headlight system was the only kind of headlight system offered on cars, there came a more advanced form of headlight system in the form of projectors, which changed the illumination technique in cars once and for all. So, as already mentioned before, the new modern era cars mainly have two different types of headlight system. They are reflector headlight system and projector headlight system. Both these headlight systems have the same kind of exterior construction, however, the projector headlight system uses a more complex construction involving a lens. So, here is what all you need to know about the two main types of headlights system used in cars.
+
+'

@@ -1,7 +1,8 @@
-## Automatic wiper system
+## Automatic Wiper System
+## Abstract
+* Over the past two decades, the automotive industry has aggressively researched ways to exploit modern computing and electronic advances in the development of safety, reliability, and entertainment technologies for vehicles. With drivers exposed to an ever increasing number of distractions, automatic rain-sensing wiper systems become an even more appealing feature, as they work to minimize the time the driver must take his/her hands off the wheel.  Most traditional systems offer intermittent as well as variable speed operation. The traditional wiper system however requires driver constant attention in adjusting the wiper speed. Traditional windshield wiper speed constantly varies according to  time  and  vehicle’s  speed.  Because  the  manual  adjustment of the wiper distracts driver's attention, which may be a direct cause accidents. This is review paper for automatic wiper in various method and also explain the basic skeleton for    adjust speed of wiper automatically cording to the amount of water on the windshield and in addition with also in advance removal of moisture inside the car while raining. The system activates the wiper to operate in full automatic mode and detect moister using CAN technology
 
-####  introduction:
-
+####  introduction 
 * we are doing a project on body control system in that i have taken a feature of wiper system. A windshield wiper system comprises a wiper drive and two wiper arms. The drive moves the two wiper arms at a certain angle across the windshield, providing a clear view for the driver and passenger. A specially-shaped rubber wiping lip ensures an optimal wiping result.
 
 
@@ -49,3 +50,5 @@
 * Free from wear adjustment.
 * Less power consumption.
 * Operating principle is very easy Installation is simple. 
+## CONCLUSION 
+Our Automatic multispeed rain operated wiper system works well  with  conductive  sensor. As  future  extraction work  the same can be carried out by optical sensor. As far as accuracy of the system  is concerned it  is more accurate  than conductive sensor. But the reason for not using optical sensor is because due to higher cost 

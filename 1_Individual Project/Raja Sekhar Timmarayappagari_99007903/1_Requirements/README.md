@@ -1,98 +1,70 @@
-### Automatic Lights
-#### Working principle: -
+## Introduction
+The headlamps are one of the most important components in a vehicle. The headlamps are basically lamps which are attached to the front of a vehicle to illuminate the road ahead. People often consider the headlamps and the headlights to be the same. But, to be precise, the headlamp is a component while the beam of light produced and distributed by the headlamp is called headlight. Now basically, there are two types of headlight system used in the modern era cars. They are reflector lights and projector types. 
 
-* The PIR sensor senses the movement of the human body through changes in the ambient temperature as the human body passes through it.
+Projector Headlight System - In comparison, the projector headlight system is more complex in construction and is generally more expensive by a significant margin. However, they do emit a wider range of light, thus producing even output. Due to their ability of scattering light ahead strongly, the HID and Laser headlights are used only with the projector headlight system, in addition to the halogen and LED as well.
 
-* Then it turns on the lighting load to which it is connected.
-
-* The load of light will remain on until it senses movement.
-
-* Once the motion is caught, it stops the lighting load.
-
-* At night, the LUX adjustment knob allows you to adjust the light based on which the light load will either turn on / off automatically.
+Reflector Headlight System - This system is the simpler of the two in their construction, due to which they cost much lesser than the projector headlight system. This system consists of a metal housing as its most significant component, in which the light source is placed. This metal housing comes with strategically placed reflectors or mirrors, which disperse the light coming from the light source, giving a wide throw of light ahead, and it is this technology which is referred to as a multi-reflector system.
 
 
-#### Brief introduction:
+<br>
+<br>
 
-* The PIR motion sensor switch can detect infrared rays emitted from the human body. The active presence of the human body in the detection range / coverage area of light or any other electronic device can be activated automatically and when it is not there, the light will automatically become inactive.
+![image](https://user-images.githubusercontent.com/67085455/166293309-f4c77535-aa2d-4fb8-b2e5-a5d5c7760a5d.png)
+<br>
+<br>
 
-#### Power:
-* It is estimated that one unit of energy saved at the point of final use is equal to 2.3 units of energy produced.
+![image](https://user-images.githubusercontent.com/67085455/166293733-8514f52f-6e30-43c8-8d1d-de722495bc1c.png)
 
-* If energy saving practices are properly implemented, the equivalent of about 25,000 MW of electricity can be generated through the promotion of energy efficient measures.
+<br>
+<br>
 
-#### PIR motion sensor for automatic light control
+## Requirements:
+### High Level Requirements 
+LLR ID	| Description
+-|-
+HLR01 | Lights shall ON when switch gets ON
+HLR02 | Lights shall glow with high beam on mode1 of another button 
+HLR03 | Lights shall glow with low beam on mode2 of another switch
+HLR04 | Lights shall blink on button press
+HLR05 | Lights shall OFF when switch gets OFF
 
-* The PIR Motion Sensor is a fully automatic indoor and outdoor security / courtesy light controller capable of controlling 2000W incandescent or 30W x 20 fluorescent light day and night. The built-in PC infrared (PIR) motion sensor turns on the attached lighting system as it detects movement in its coverage area. During the day, the sensor built into the photo cell saves electricity by disabling the lights. You can reduce your electricity bills by using PIR motion sensors and occupancy sensors.
+### Low Level Requirements
+HLR ID| LLR ID	| Description | 
+-|-|-
+HLR01| LLR01.1 |	Ignition must be ON|
+||LLR01.2| Switch should be ON | 
+|HLR02|LLR02.1| Ignition must be ON|
+||LLR02.2| Switch should be ON  |
+||LLR02.3| Another switch should be on Mode 1  |
+|HLR03|LLR03.1| Ignition must be ON|
+||LLR03.2| Switch should be ON  |
+||LLR03.3| Another switch should be on Mode 2 |
+HLR04|LLR04.1| Ignition must be ON|
+||LLR04.2| Blink should press once |
+HLR05|LLR05.1| Switch should be OFF |
 
-* An adjustable time knob lets you choose how long the light lasts after activation and thus prevents power loss. In the evening or at night, you can also manage when the lights should be on through the LUX adjustment knob provided in the sensor.
+## 4W's & 1H
 
-#### Energy saving sensor:
+### What 
+Head lights system of a car with the high beam , low beam controls & a pass flicker
+### Why
+To ensure the visibility of road in night times , flicker to give pass command to opposite vehicle
+### When
+Especially when we are driving car in night times and flicker when we want to pass 
+### Where
+In Automotive vehicles like cars, trucks, buses i.e, it can be deployed
+### How
+Using User switch button designed inside the car to control the lighting system and It is developed with the help of CAN network protocol
 
-* Using PIR sensors can save a lot of energy by turning off the lights when the space is not in use. Savings are huge in large facilities.
+## SWOT Analysis
 
-* It is estimated that one unit of energy saved at the point of final use is equal to 2.3 units of energy produced.
-
-* Approximately 25,000 MW of electricity equivalent capacity can be saved by promoting energy efficient measures if energy saving methods are implemented properly.
-
-* PIR motion sensors for home security
-
-* If PIR motion sensors are installed in the front or backyard of your home, they serve as security sensors at night. In case any body jumps or sneaks into its detection range, the attached lights / siren or beep may automatically turn on to intimidate the intruder.
-
-
-
-#### Applications: -
-
-* Common toilets, for lights & exhaust fans
-* Common staircase / Entrance / Basements
-* Parking areas / garden lights
-* Living room, Malls, ATMS
-* Changing rooms in shops
-* Offices / Conference Room
-* Corridors & many more!
-
-
---------------------------------------------------------
-
-----------------------------------------------------------
-##   4W's & 1H
-| Sl.No | Questions | Description | 
-| :-----: | :-----: | ----- |
-| 1. | What | Automatic lights on or off by using motion sensor. |
-| 2. | Who | Automatic lights can use in hospital, Schools, college and offices . | 
-| 3. | When | it detects the motion of human ad switch on the lights . |
-| 4. | Where | Automatic lights are can use in bedrooms bathrooms and street lights . | 
-| 5. | How | Then it turns on the lighting load to which it is connected the load of light will remain on until it senses movement. |
--------------------------------------------------------
-
-![Automatic_lights](https://user-images.githubusercontent.com/98829237/163231452-4a8815aa-2e93-4944-bb08-dc05365e73f6.jpg)
-
-
-
----------------------------------------------------------
-
-
-##  Requirements:
-##  High Level Requirements ##
-|ID| Description|
-| :-------: |----------------------------------------------------------------------------------------------------------------------------------|
-| HLR_1 | It shall have pir motion sensor .|
-| HLR_2 | It shall have led to switch on/off  . |
-| HLR_3 | It shall switch on when motion detects.  |
-| HLR_4 | It shall switch off when motion not detects.  |
----------------------------------
+### Strength
+Adaptive lighting system which can effectively gives brightsness according to users command. which is designed with CAN network protocol 
+### Weakness
+It can be operated manually and some times it may get delay
+### Opportunities
+This system can be developed further to Automatic systems using different type of technologies coming in
+### Threats
+Normal wear and tear, Lights not working, switches may break 
 
 
-
-
-## LOW LEVEL REQUIREMENTS:- ##
-| HLR_ID |LLR_ID | Design_consideration | 
-| - | -| -| 
-| HLR_1 | LLR_1.1 | It shall pir sensor to detecct motion  |
-| | LLR_1.2 | it shall have proper connection to board |  
-| HLR_2 | LLR_2.1 | It shall have led to switch on/off |
-| | LLR_2.2 | it shows the led to on/off | 
-| HLR_3 | LLR_3.1 | It shall switch on when motion detects |
-| | LLR_3.2 | it switch on when motion detect on pir sensor |  
-| HLR_4 | LLR_4.1 | It shall switch on when motion detects |
-| | LLR_4.2 | it switch off when motion detect on pir sensor  |  
