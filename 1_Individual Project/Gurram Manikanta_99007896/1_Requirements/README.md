@@ -42,8 +42,8 @@ is then sent through the air vents in its chilled state.
 ## LOW LEVEL REQUIREMENTS:- ##
 | HLR_ID |LLR_ID | Design_consideration | 
 | - | -| -| 
-| HLR_1 | LLR_1.1 | It shall have ignition 'on' by prressing 's'  |
-| | LLR_1.2 | It shall have ignition 'off' by prressing 's' again|  
+| HLR_1 | LLR_1.1 | It shall have ignition 'on' by pressing 's'  |
+| | LLR_1.2 | It shall have ignition 'off' by pressing 's' again|  
 | HLR_2 | LLR_2.1 | It shall have air condition on/off by pressing 'a' |
 | | LLR_2.2 |  AC cannot be 'on' while ignition is off | 
 | HLR_3 | LLR_3.1 | it shall change  the values of temperature of knob by pressing 'i' and 'd'  |
