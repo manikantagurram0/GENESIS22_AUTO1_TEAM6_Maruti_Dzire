@@ -24,16 +24,18 @@ Warm temperatures are controlled as they are in a standard car heater, but to co
 compressor under the bonnet that directs air to a condenser. This then charges the air with refrigerant to cool it down, and the air 
 is then sent through the air vents in its chilled state.
 
--------------------------
+------------
+![swot](https://user-images.githubusercontent.com/98829237/166515630-48cef28d-72c8-476b-8d41-0851dca613e2.jpeg)
+-------------
 ##  Requirements:
 ##  High Level Requirements ##
 
 |ID| Description|
 -- |-
-| HLR_1 | It shall have temperature sensor to detect .|
-| HLR_2 | It shall set the temperature to which user want  . |
-| HLR_3 | It shall switch off the coolent when temperature is matches with input temperature.  |
-| HLR_4 | It shall switch on the coolent when temperature is dismatch with input temperature.  |
+| HLR_1 | It shall have ignition on.|
+| HLR_2 | It shall have air condition on  . |
+| HLR_3 | It shall have change the temperature while changing knob .  |
+| HLR_4 | It shall display the value of temperature on display.  |
 ---------------------------------
 
 
@@ -42,24 +44,28 @@ is then sent through the air vents in its chilled state.
 ## LOW LEVEL REQUIREMENTS:- ##
 | HLR_ID |LLR_ID | Design_consideration | 
 | - | -| -| 
-| HLR_1 | LLR_1.1 | It shall temperature sensor to detecct temperature  |
-| | LLR_1.2 | it shall have proper logic to match with input temperature |  
-| HLR_2 | LLR_2.1 | It shall read input from user |
-| | LLR_2.2 | it shall set temperature which reads from user | 
-| HLR_3 | LLR_3.1 | It shall switch on ac when temperature inside car is mismatch with input temperature by user |
-| | LLR_3.2 | it switch on coolent temperature inside car is mismatch with input temperature by user |  
-| HLR_4 | LLR_4.1 | It shall switch off ac when temperature inside car is mismatch with input temperature by user |
-| | LLR_4.2 |  it switch off coolent temperature inside car is mismatch with input temperature by user  |  
+| HLR_1 | LLR_1.1 | It shall have ignition 'on' by pressing 's'  |
+| | LLR_1.2 | It shall have ignition 'off' by pressing 's' again|  
+| HLR_2 | LLR_2.1 | It shall have air condition on/off by pressing 'a' |
+| | LLR_2.2 |  AC cannot be 'on' while ignition is off | 
+| HLR_3 | LLR_3.1 | it shall change  the values of temperature of knob by pressing 'i' and 'd'  |
+| | LLR_3.2 | Knob value cannot be change while AC and Ignition is off |  
+| HLR_4 | LLR_4.1 | It shall increase the values of temperture by pressing 'i' |
+| | LLR_4.2 |  it shall decrease the values of temperature by pressing 'd'  |  
 -----------------------------------------------------------------------------------
 #
 | HLR_Test ID | Description | Input | Expected output | Actual Output | 
 | --- | --- | --- | --- | --- | 
-| 01 | it shall read temperature from sensor  | temperature sensor given 28| temperature shown 28 | Yet to do |
-| 02 | It shall have temperature sensor to detect | input temperature by user| it is displaying temperature |  Yet to do |
-| 03 | It shall switch off the coolent when temperature is matches with input temperature. | input temperature by user | switch off the coolant | Yet to do |
-| 04 |  It shall switch on the coolent when temperature is dismatch with input temperature. | input temperature by user| switch off the coolant | Yet to do| 
+| 01 | It shall switch 'on' ignition   | press 's' | Ignition on | Ignition on |
+| 02 | It shall switch 'off' ignition | press 's'| Ignition off |  Ignition off |
+| 03 | It shall switch 'on' AC | press 'a' | AC is on | AC is on |
+| 04 |  It shall switch 'off' | press 'a'| AC is off | AC is off| 
+| 05 | It shall increase knob values | press 'i' | Increasing values | Increasing values|
+| 06 | It shall decrease knob values | press 'd' | Decreasing values  | Decreasing values |
 -----------------------------------------------------------------------
 ---------------------------------------------------------------------------
+
+
 ## SWOT Analysis
 #### STRENGTH 
 1) Eliminate human error that can occur with attempting to control temperatures manually. 

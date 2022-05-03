@@ -55,7 +55,8 @@ HLR06|LLR06.1| User should turn off the switch|
 3) Worn off window regulators might also be a reason behind a dysfunctional power window.
 4) 
 ### SWOT Analysis
-![window swot](https://user-images.githubusercontent.com/98832333/160218982-7179e7c9-2cec-4ca0-bf4c-bfd1cb8ffef5.PNG)
+
+![vinay](https://user-images.githubusercontent.com/98829237/166516040-0fad7bb7-ee6c-4d2c-87b8-ec3bea428f08.jpeg)
 
 ### 4W's and 1 H
 ##### WHY
