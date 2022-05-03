@@ -24,7 +24,9 @@ Warm temperatures are controlled as they are in a standard car heater, but to co
 compressor under the bonnet that directs air to a condenser. This then charges the air with refrigerant to cool it down, and the air 
 is then sent through the air vents in its chilled state.
 
--------------------------
+------------
+![swot](https://user-images.githubusercontent.com/98829237/166515630-48cef28d-72c8-476b-8d41-0851dca613e2.jpeg)
+-------------
 ##  Requirements:
 ##  High Level Requirements ##
 
@@ -59,9 +61,11 @@ is then sent through the air vents in its chilled state.
 | 03 | It shall switch 'on' AC | press 'a' | AC is on | AC is on |
 | 04 |  It shall switch 'off' | press 'a'| AC is off | AC is off| 
 | 05 | It shall increase knob values | press 'i' | Increasing values | Increasing values|
-| 06 | It shall decrease knob values | press 'd' | Decresing values  | Decresing values |
+| 06 | It shall decrease knob values | press 'd' | Decreasing values  | Decreasing values |
 -----------------------------------------------------------------------
 ---------------------------------------------------------------------------
+
+
 ## SWOT Analysis
 #### STRENGTH 
 1) Eliminate human error that can occur with attempting to control temperatures manually. 
