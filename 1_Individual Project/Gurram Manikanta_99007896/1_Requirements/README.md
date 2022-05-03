@@ -54,10 +54,12 @@ is then sent through the air vents in its chilled state.
 #
 | HLR_Test ID | Description | Input | Expected output | Actual Output | 
 | --- | --- | --- | --- | --- | 
-| 01 | it shall read temperature from sensor  | temperature sensor given 28| temperature shown 28 | Yet to do |
-| 02 | It shall have temperature sensor to detect | input temperature by user| it is displaying temperature |  Yet to do |
-| 03 | It shall switch off the coolent when temperature is matches with input temperature. | input temperature by user | switch off the coolant | Yet to do |
-| 04 |  It shall switch on the coolent when temperature is dismatch with input temperature. | input temperature by user| switch off the coolant | Yet to do| 
+| 01 | It shall switch 'on' ignition   | press 's' | Ignition on | Ignition on |
+| 02 | It shall switch 'off' ignition | press 's'| Ignition off |  Ignition off |
+| 03 | It shall switch 'on' AC | press 'a' | AC is on | AC is on |
+| 04 |  It shall switch 'off' | press 'a'| AC is off | AC is off| 
+| 05 | It shall increase knob values | press 'i' | Increasing values | Increasing values|
+| 06 | It shall decrease knob values | press 'd' | Decresing values  | Decresing values |
 -----------------------------------------------------------------------
 ---------------------------------------------------------------------------
 ## SWOT Analysis
