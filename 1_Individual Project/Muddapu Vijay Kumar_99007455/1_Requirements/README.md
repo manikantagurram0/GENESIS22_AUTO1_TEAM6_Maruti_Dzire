@@ -1,4 +1,4 @@
-## Automatic Wiper System
+##  Wiper System
 ## Abstract
 * Over the past two decades, the automotive industry has aggressively researched ways to exploit modern computing and electronic advances in the development of safety, reliability, and entertainment technologies for vehicles. With drivers exposed to an ever increasing number of distractions, automatic rain-sensing wiper systems become an even more appealing feature, as they work to minimize the time the driver must take his/her hands off the wheel.  Most traditional systems offer intermittent as well as variable speed operation. The traditional wiper system however requires driver constant attention in adjusting the wiper speed. Traditional windshield wiper speed constantly varies according to  time  and  vehicle’s  speed.  Because  the  manual  adjustment of the wiper distracts driver's attention, which may be a direct cause accidents. This is review paper for automatic wiper in various method and also explain the basic skeleton for    adjust speed of wiper automatically cording to the amount of water on the windshield and in addition with also in advance removal of moisture inside the car while raining. The system activates the wiper to operate in full automatic mode and detect moister using CAN technology
 
@@ -36,15 +36,19 @@
 ##  Requirements:
 ##  High Level Requirements ##
 |ID| Description|
-| :-------: |----------------------------------------------------------------------------------------------------------------------------------|
-| HLR_1 | It shall have optical sensor.|
-| HLR_2 |  It shall have rain sensor  |
----------------------------------
-## LOW LEVEL REQUIREMENTS:- ##
+|-|-
+| HLR_1 | Wiper shall work user switch controls|
+| HLR_2 | Wiper shall work automatically when it's raining |
+
+## LOW LEVEL REQUIREMENTS:- 
 | HLR_ID |LLR_ID | Design_consideration | 
 | - | -| -| 
-| HLR_1 | LLR_1 | optical sensor to detecct the moisture  |
-| HLR_2| LLR_2 | rain sensor is used to detect the speed |  
+| HLR_1 | LLR_1.1 | Ignition On |
+||LLR_1.2| On user switch Wipers Should work |
+| HLR_2|LLR_2.1 | Ignition On |
+||LLR_2.2| Sensor should detect rain |  
+||LLR_2.3| Wiper shall work automatically when it detects rain |  
+
 ## Advantages:
 * Low cost automation project.
 * Free from wear adjustment.
