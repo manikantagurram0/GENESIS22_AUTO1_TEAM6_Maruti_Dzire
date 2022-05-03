@@ -12,7 +12,7 @@ some vehicle power window control systems will be different.
 ### High Level Requirements 
 LLR ID	| Description
 -|-
-HLR01 | Doors shall ON when car speed is more than 20kmph
+HLR01 | Doors shall close when car speed is more than 20kmph
 HLR02 | Windows should get closed on the command of driver through switch
 HLR03 | Windows should open on the command of driver through switch
 HLR04 | Windows shall stop closing when obstacle detected in between
