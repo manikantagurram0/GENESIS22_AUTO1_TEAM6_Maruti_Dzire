@@ -53,6 +53,7 @@ is then sent through the air vents in its chilled state.
 | HLR_4 | LLR_4.1 | It shall increase the values of temperture by pressing 'i' |
 | | LLR_4.2 |  it shall decrease the values of temperature by pressing 'd'  |  
 -----------------------------------------------------------------------------------
+### Test plan
 #
 | HLR_Test ID | Description | Input | Expected output | Actual Output | 
 | --- | --- | --- | --- | --- | 
